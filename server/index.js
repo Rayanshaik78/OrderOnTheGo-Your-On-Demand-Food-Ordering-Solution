@@ -15,7 +15,7 @@ app.use(cors());
 
 const PORT = 6001;
 
-mongoose.connect('mongodb://localhost:27017/foodDelivery',{
+mongoose.connect('mongodb+srv://Rayan:rayanshaik78@cluster0.ftfwn77.mongodb.net/',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(()=>{
